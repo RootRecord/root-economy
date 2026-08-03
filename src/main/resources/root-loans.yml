@@ -28,7 +28,8 @@ town-loan:
 
 loan-daily-tax:
   enabled: true
-  rate: 0.01
+  # Daily % of outstanding balance added to owed. 0 = off (no accrual / no chat).
+  rate: 0
   schedule-hour-hst: 0
   poll-seconds: 300
   min-accrual: 0.01
